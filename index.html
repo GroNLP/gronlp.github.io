@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url='https://www.rug.nl/research/clcg/research/cl/'" />
+    <style>
+      body {
+        background-color: #dc002d;
+        text-align: center;
+      }
+      a {
+        padding-right: 15px;
+      }
+      img {
+        transition: transform 1s;
+      }
+
+      img.spin {
+        transform: rotate(360deg);
+      }
+    </style>
   </head>
   <body>
-    <p><a href="https://www.rug.nl/research/clcg/research/cl/">https://www.rug.nl/research/clcg/research/cl/</a></p>
+    <img src="https://avatars.githubusercontent.com/u/123118331?s=200&v=4" alt="Homepage Image"  onclick="this.classList.toggle('spin')">
+    <br>
+    <br>
+    <div style="padding-left: 6em;">
+        <b>
+          <a href="https://www.rug.nl/research/clcg/research/cl/" style="color: white;">Homepage</a>
+          <a href="https://twitter.com/GroNLP" style="color: white;">Twitter</a>
+          <a href="https://sigmoid.social/@gronlp" style="color: white;">Mastodon</a>
+          <a href="https://huggingface.co/GroNLP" style="color: white;">Hugging Face</a>
+      </b>
+    </div>
   </body>
 </html>
+
